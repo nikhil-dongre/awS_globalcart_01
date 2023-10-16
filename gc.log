@@ -1,0 +1,546 @@
+2023-10-15 14:17:48,134 [INFO] Watching for file changes with StatReloader
+2023-10-15 14:18:28,018 [INFO] /Users/nikhil/Desktop/aws_test_globalcart/globalcart/accounts/views.py changed, reloading.
+2023-10-15 14:18:28,276 [INFO] Watching for file changes with StatReloader
+2023-10-15 14:18:37,973 [INFO] /Users/nikhil/Desktop/aws_test_globalcart/globalcart/accounts/views.py changed, reloading.
+2023-10-15 14:18:38,166 [INFO] Watching for file changes with StatReloader
+2023-10-15 14:19:30,385 [INFO] /Users/nikhil/Desktop/aws_test_globalcart/globalcart/accounts/urls.py changed, reloading.
+2023-10-15 14:19:30,648 [INFO] Watching for file changes with StatReloader
+2023-10-15 14:20:06,371 [INFO] /Users/nikhil/Desktop/aws_test_globalcart/globalcart/accounts/views.py changed, reloading.
+2023-10-15 14:20:06,657 [INFO] Watching for file changes with StatReloader
+2023-10-15 14:20:08,869 [INFO] /Users/nikhil/Desktop/aws_test_globalcart/globalcart/accounts/views.py changed, reloading.
+2023-10-15 14:20:09,060 [INFO] Watching for file changes with StatReloader
+2023-10-15 14:20:27,559 [INFO] /Users/nikhil/Desktop/aws_test_globalcart/globalcart/accounts/urls.py changed, reloading.
+2023-10-15 14:20:27,829 [INFO] Watching for file changes with StatReloader
+2023-10-15 14:20:56,425 [INFO] /Users/nikhil/Desktop/aws_test_globalcart/globalcart/accounts/views.py changed, reloading.
+2023-10-15 14:20:56,700 [INFO] Watching for file changes with StatReloader
+2023-10-15 14:21:25,469 [INFO] /Users/nikhil/Desktop/aws_test_globalcart/globalcart/accounts/views.py changed, reloading.
+2023-10-15 14:21:25,745 [INFO] Watching for file changes with StatReloader
+2023-10-15 14:21:32,621 [ERROR] Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/globalcart/globalcart/views.py", line 5, in home
+    for product in products:
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/db/models/query.py", line 398, in __iter__
+    self._fetch_all()
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1549, in execute_sql
+    sql, params = self.as_sql()
+                  ^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 736, in as_sql
+    extra_select, order_by, group_by = self.pre_sql_setup(
+                                       ^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 84, in pre_sql_setup
+    self.setup_query(with_col_aliases=with_col_aliases)
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 73, in setup_query
+    self.select, self.klass_info, self.annotation_col_map = self.get_select(
+                                                            ^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 296, in get_select
+    sql, params = self.compile(col)
+                  ^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 546, in compile
+    sql, params = node.as_sql(self, self.connection)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/db/models/expressions.py", line 1134, in as_sql
+    sql = ".".join(map(compiler.quote_name_unless_alias, identifiers))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 537, in quote_name_unless_alias
+    r = self.connection.ops.quote_name(name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/db/backends/dummy/base.py", line 20, in complain
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: settings.DATABASES is improperly configured. Please supply the ENGINE value. Check settings documentation for more details.
+2023-10-15 14:21:32,970 [WARNING] Not Found: /apple-touch-icon-precomposed.png
+2023-10-15 14:21:32,986 [WARNING] Not Found: /apple-touch-icon.png
+2023-10-15 14:21:32,987 [WARNING] Not Found: /favicon.ico
+2023-10-15 14:22:10,913 [INFO] /Users/nikhil/Desktop/aws_test_globalcart/globalcart/globalcart/settings.py changed, reloading.
+2023-10-15 14:22:11,130 [INFO] This is sqlite db 
+2023-10-15 14:22:11,311 [INFO] Watching for file changes with StatReloader
+2023-10-15 19:52:34,467 [INFO] This is sqlite db 
+2023-10-15 14:22:34,644 [INFO] This is sqlite db 
+2023-10-15 14:22:34,698 [INFO] Watching for file changes with StatReloader
+2023-10-15 14:24:40,036 [WARNING] Not Found: /favicon.ico
+2023-10-15 14:24:40,036 [WARNING] Not Found: /apple-touch-icon.png
+2023-10-15 14:24:40,037 [WARNING] Not Found: /apple-touch-icon-precomposed.png
+2023-10-15 14:26:45,052 [ERROR] Internal Server Error: /accounts/edit_profile/
+Traceback (most recent call last):
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/globalcart/accounts/views.py", line 231, in edit_profile
+    return render(request, 'accounts/edit_profile.html',context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: accounts/edit_profile.html
+2023-10-15 20:02:16,078 [INFO] This is sqlite db 
+2023-10-15 14:32:16,268 [INFO] This is sqlite db 
+2023-10-15 14:32:16,320 [INFO] Watching for file changes with StatReloader
+2023-10-15 14:32:35,601 [ERROR] Internal Server Error: /accounts/edit_profile/
+Traceback (most recent call last):
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/globalcart/accounts/views.py", line 231, in edit_profile
+    return render(request, 'accounts/edit_profile.html',context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: accounts/edit_profile.html
+2023-10-15 21:10:21,595 [INFO] This is sqlite db 
+2023-10-15 15:40:21,777 [INFO] This is sqlite db 
+2023-10-15 15:40:21,826 [INFO] Watching for file changes with StatReloader
+2023-10-15 15:42:15,066 [INFO] /Users/nikhil/Desktop/aws_test_globalcart/globalcart/accounts/urls.py changed, reloading.
+2023-10-15 15:42:15,281 [INFO] This is sqlite db 
+2023-10-15 15:42:15,365 [INFO] Watching for file changes with StatReloader
+2023-10-15 15:42:19,518 [INFO] /Users/nikhil/Desktop/aws_test_globalcart/globalcart/accounts/views.py changed, reloading.
+2023-10-15 15:42:19,677 [INFO] This is sqlite db 
+2023-10-15 15:42:19,726 [INFO] Watching for file changes with StatReloader
+2023-10-15 21:13:50,552 [INFO] This is sqlite db 
+2023-10-15 15:43:50,730 [INFO] This is sqlite db 
+2023-10-15 15:43:50,778 [INFO] Watching for file changes with StatReloader
+2023-10-15 15:45:18,326 [ERROR] Internal Server Error: /accounts/forget_password/
+Traceback (most recent call last):
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view accounts.views.forget_password didn't return an HttpResponse object. It returned None instead.
+2023-10-15 15:45:46,001 [ERROR] Internal Server Error: /accounts/forget_password/
+Traceback (most recent call last):
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view accounts.views.forget_password didn't return an HttpResponse object. It returned None instead.
+2023-10-15 15:45:48,499 [ERROR] Internal Server Error: /accounts/
+Traceback (most recent call last):
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/globalcart/accounts/views.py", line 24, in dashboard
+    userprofile = UserProfile.objects.get(user_id = request.user.id)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+accounts.models.UserProfile.DoesNotExist: UserProfile matching query does not exist.
+2023-10-15 15:45:49,934 [WARNING] Not Found: /accounts/resetPassword
+2023-10-15 15:46:06,491 [INFO] /Users/nikhil/Desktop/aws_test_globalcart/globalcart/accounts/views.py changed, reloading.
+2023-10-15 15:46:06,712 [INFO] This is sqlite db 
+2023-10-15 15:46:06,795 [INFO] Watching for file changes with StatReloader
+2023-10-15 15:46:33,486 [INFO] /Users/nikhil/Desktop/aws_test_globalcart/globalcart/accounts/urls.py changed, reloading.
+2023-10-15 15:46:33,694 [INFO] This is sqlite db 
+2023-10-15 15:46:33,764 [INFO] Watching for file changes with StatReloader
+2023-10-15 15:47:05,431 [INFO] /Users/nikhil/Desktop/aws_test_globalcart/globalcart/accounts/views.py changed, reloading.
+2023-10-15 15:47:05,644 [INFO] This is sqlite db 
+2023-10-15 15:47:05,727 [INFO] Watching for file changes with StatReloader
+2023-10-15 15:48:58,098 [INFO] /Users/nikhil/Desktop/aws_test_globalcart/globalcart/accounts/urls.py changed, reloading.
+2023-10-15 15:48:58,330 [INFO] This is sqlite db 
+2023-10-15 15:48:58,416 [INFO] Watching for file changes with StatReloader
+2023-10-15 15:51:06,171 [INFO] /Users/nikhil/Desktop/aws_test_globalcart/globalcart/carts/urls.py changed, reloading.
+2023-10-15 15:51:06,380 [INFO] This is sqlite db 
+2023-10-15 15:51:06,461 [INFO] Watching for file changes with StatReloader
+2023-10-15 15:52:06,494 [INFO] /Users/nikhil/Desktop/aws_test_globalcart/globalcart/carts/views.py changed, reloading.
+2023-10-15 15:52:06,710 [INFO] This is sqlite db 
+2023-10-15 15:52:06,789 [INFO] Watching for file changes with StatReloader
+2023-10-15 15:52:52,905 [INFO] /Users/nikhil/Desktop/aws_test_globalcart/globalcart/carts/urls.py changed, reloading.
+2023-10-15 15:52:53,111 [INFO] This is sqlite db 
+2023-10-15 15:52:53,186 [INFO] Watching for file changes with StatReloader
+2023-10-15 15:53:52,213 [INFO] /Users/nikhil/Desktop/aws_test_globalcart/globalcart/carts/views.py changed, reloading.
+2023-10-15 15:53:52,411 [INFO] This is sqlite db 
+2023-10-15 15:53:52,493 [INFO] Watching for file changes with StatReloader
+2023-10-15 15:54:46,682 [INFO] /Users/nikhil/Desktop/aws_test_globalcart/globalcart/carts/views.py changed, reloading.
+2023-10-15 15:54:46,886 [INFO] This is sqlite db 
+2023-10-15 15:54:46,959 [INFO] Watching for file changes with StatReloader
+2023-10-15 15:55:01,424 [INFO] /Users/nikhil/Desktop/aws_test_globalcart/globalcart/carts/urls.py changed, reloading.
+2023-10-15 15:55:01,626 [INFO] This is sqlite db 
+2023-10-15 15:55:01,705 [INFO] Watching for file changes with StatReloader
+2023-10-15 15:55:26,370 [INFO] /Users/nikhil/Desktop/aws_test_globalcart/globalcart/carts/views.py changed, reloading.
+2023-10-15 15:55:26,572 [INFO] This is sqlite db 
+2023-10-15 15:55:26,653 [INFO] Watching for file changes with StatReloader
+2023-10-15 15:58:22,968 [ERROR] Internal Server Error: /accounts/forget_password/
+Traceback (most recent call last):
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view accounts.views.forget_password didn't return an HttpResponse object. It returned None instead.
+2023-10-15 15:58:26,703 [ERROR] Internal Server Error: /accounts/forget_password/
+Traceback (most recent call last):
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view accounts.views.forget_password didn't return an HttpResponse object. It returned None instead.
+2023-10-15 21:29:12,646 [INFO] This is sqlite db 
+2023-10-15 15:59:12,823 [INFO] This is sqlite db 
+2023-10-15 15:59:12,872 [INFO] Watching for file changes with StatReloader
+2023-10-15 15:59:35,399 [WARNING] Not Found: /apple-touch-icon-precomposed.png
+2023-10-15 15:59:35,399 [WARNING] Not Found: /favicon.ico
+2023-10-15 15:59:35,400 [WARNING] Not Found: /apple-touch-icon.png
+2023-10-15 16:02:43,169 [WARNING] Not Found: /default/default-user.png
+2023-10-15 16:10:00,473 [INFO] /Users/nikhil/Desktop/aws_test_globalcart/globalcart/store/views.py changed, reloading.
+2023-10-15 16:10:00,718 [INFO] This is sqlite db 
+2023-10-15 16:10:00,798 [INFO] Watching for file changes with StatReloader
+2023-10-15 21:40:54,180 [INFO] This is sqlite db 
+2023-10-15 16:10:54,350 [INFO] This is sqlite db 
+2023-10-15 16:10:54,399 [INFO] Watching for file changes with StatReloader
+2023-10-15 16:11:22,160 [INFO] /Users/nikhil/Desktop/aws_test_globalcart/globalcart/store/views.py changed, reloading.
+2023-10-15 16:11:22,359 [INFO] This is sqlite db 
+2023-10-15 16:11:22,431 [INFO] Watching for file changes with StatReloader
+2023-10-15 16:11:43,966 [ERROR] Internal Server Error: /store/category/sports/bat/
+Traceback (most recent call last):
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view store.views.product_details didn't return an HttpResponse object. It returned None instead.
+2023-10-15 16:13:53,226 [INFO] /Users/nikhil/Desktop/aws_test_globalcart/globalcart/store/urls.py changed, reloading.
+2023-10-15 16:13:53,437 [INFO] This is sqlite db 
+2023-10-15 16:13:53,510 [INFO] Watching for file changes with StatReloader
+2023-10-15 16:15:07,186 [INFO] /Users/nikhil/Desktop/aws_test_globalcart/globalcart/store/views.py changed, reloading.
+2023-10-15 16:15:07,403 [INFO] This is sqlite db 
+2023-10-15 16:15:07,478 [INFO] Watching for file changes with StatReloader
+2023-10-15 16:15:17,573 [ERROR] Internal Server Error: /store/category/sports/bat/
+Traceback (most recent call last):
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/globalcart/store/views.py", line 81, in product_details
+    return render(request, 'store/product_details.html',context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: store/product_details.html
+2023-10-15 21:46:54,298 [INFO] This is sqlite db 
+2023-10-15 16:16:54,469 [INFO] This is sqlite db 
+2023-10-15 16:16:54,517 [INFO] Watching for file changes with StatReloader
+2023-10-15 16:16:57,588 [ERROR] Internal Server Error: /store/category/sports/bat/
+Traceback (most recent call last):
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/globalcart/store/views.py", line 81, in product_details
+    return render(request, 'store/product_details.html',context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'submit_reviews' not found. 'submit_reviews' is not a valid view function or pattern name.
+2023-10-15 16:17:59,186 [INFO] /Users/nikhil/Desktop/aws_test_globalcart/globalcart/store/urls.py changed, reloading.
+2023-10-15 16:17:59,397 [INFO] This is sqlite db 
+2023-10-15 16:17:59,479 [INFO] Watching for file changes with StatReloader
+2023-10-15 16:18:23,945 [INFO] /Users/nikhil/Desktop/aws_test_globalcart/globalcart/store/views.py changed, reloading.
+2023-10-15 16:18:24,131 [INFO] This is sqlite db 
+2023-10-15 16:18:24,203 [INFO] Watching for file changes with StatReloader
+2023-10-15 22:45:53,384 [INFO] This is sqlite db 
+2023-10-15 17:15:53,559 [INFO] This is sqlite db 
+2023-10-15 17:15:53,608 [INFO] Watching for file changes with StatReloader
+2023-10-15 22:47:44,229 [INFO] This is sqlite db 
+2023-10-15 17:17:44,406 [INFO] This is sqlite db 
+2023-10-15 17:17:44,459 [INFO] Watching for file changes with StatReloader
+2023-10-15 17:17:47,592 [INFO] /Users/nikhil/Desktop/aws_test_globalcart/globalcart/orders/views.py changed, reloading.
+2023-10-15 17:17:47,749 [INFO] This is sqlite db 
+2023-10-15 17:17:47,797 [INFO] Watching for file changes with StatReloader
+2023-10-15 22:51:18,731 [INFO] This is sqlite db 
+2023-10-15 17:21:18,914 [INFO] This is sqlite db 
+2023-10-15 17:21:18,962 [INFO] Watching for file changes with StatReloader
+2023-10-15 17:21:59,383 [ERROR] Internal Server Error: /orders/place_orders/
+Traceback (most recent call last):
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/globalcart/orders/views.py", line 79, in place_order
+    return render(request, 'orders/payments.html',context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: orders/payments.html
+2023-10-15 22:52:50,417 [INFO] This is sqlite db 
+2023-10-15 17:22:50,594 [INFO] This is sqlite db 
+2023-10-15 17:22:50,648 [INFO] Watching for file changes with StatReloader
+2023-10-15 17:22:55,042 [ERROR] Internal Server Error: /orders/place_orders/
+Traceback (most recent call last):
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/globalcart/orders/views.py", line 79, in place_order
+    return render(request, 'orders/payments.html',context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'payments' not found. 'payments' is not a valid view function or pattern name.
+2023-10-15 17:23:16,594 [INFO] /Users/nikhil/Desktop/aws_test_globalcart/globalcart/orders/urls.py changed, reloading.
+2023-10-15 17:23:16,808 [INFO] This is sqlite db 
+2023-10-15 17:23:16,880 [INFO] Watching for file changes with StatReloader
+2023-10-15 17:25:48,028 [INFO] /Users/nikhil/Desktop/aws_test_globalcart/globalcart/orders/views.py changed, reloading.
+2023-10-15 17:25:48,242 [INFO] This is sqlite db 
+2023-10-15 17:25:48,327 [INFO] Watching for file changes with StatReloader
+2023-10-15 17:25:57,162 [ERROR] Internal Server Error: /orders/place_orders/
+Traceback (most recent call last):
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/globalcart/orders/views.py", line 79, in place_order
+    return render(request, 'orders/payments.html',context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikhil/Desktop/aws_test_globalcart/venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'order_complete' not found. 'order_complete' is not a valid view function or pattern name.
+2023-10-15 17:26:12,205 [INFO] /Users/nikhil/Desktop/aws_test_globalcart/globalcart/orders/urls.py changed, reloading.
+2023-10-15 17:26:12,406 [INFO] This is sqlite db 
+2023-10-15 17:26:12,478 [INFO] Watching for file changes with StatReloader
+2023-10-15 17:26:30,905 [INFO] /Users/nikhil/Desktop/aws_test_globalcart/globalcart/orders/views.py changed, reloading.
+2023-10-15 17:26:31,124 [INFO] This is sqlite db 
+2023-10-15 17:26:31,208 [INFO] Watching for file changes with StatReloader
